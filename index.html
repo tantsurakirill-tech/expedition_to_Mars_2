@@ -15,6 +15,7 @@
     <nav>
         <ul>
             <li><a href="#expedition_parameters">Параметры экспедиции</a></li>
+            <li><a href="#equipment">Оборудование экспедиции</a></li>
             <li><a href="#crew">Состав экипажа</a></li>
             <li><a href="#tasks">Задачи экспедиции</a></li>
             <li><a href="#expedition_plan">План экспедиции</a></li>
@@ -32,49 +33,99 @@
             <p>Запуск производится с канапляного поля</p>
         </section>
 
+        <section id="equipment">
+            <h2>Раздел с необходимым оборудованием для совершения экспедиции.</h2>
+            <p>
+                В нашей экспедиции необходимо большое количество разного оборудования для выполнения поставленных задач.
+                Все оборудование должно быть заранее подготовлено и загружено в корабль.
+            </p>
+            <table>
+                <tr>
+                    <th>Оборудование</th>
+                    <th>Количество</th>
+                    <th>Назначение</th>
+                    <th>Ответственный</th>
+                </tr>
+
+                <tr>
+                    <td>Лопата</td>
+                    <td>2 шт</td>
+                    <td>Собрать грунт для исследования</td>
+                    <td>Ботаник экипажа</td>
+                </tr>
+
+                <tr>
+                    <td>Трос</td>
+                    <td>6 шт</td>
+                    <td>Выдается каждому члену экипажа для привязывания себя к кораблю</td>
+                    <td>Помощник командира</td>
+                </tr>
+
+                <tr>
+                    <td>Бинокль</td>
+                    <td>2 шт</td>
+                    <td>Наблюдение за местностью</td>
+                    <td>Штурман</td>
+                </tr>
+
+                <tr>
+                    <td>Компас</td>
+                    <td>3 шт</td>
+                    <td>Ориентация на местности</td>
+                    <td>Командир</td>
+                </tr>
+
+                <tr>
+                    <td>Ноутбук</td>
+                    <td>1 шт</td>
+                    <td>Ведение учета и запись данных во время экспедиции</td>
+                    <td>Айтишник</td>
+                </tr>
+            </table>
+        </section>
+
         <section id="crew">
             <h2>Состав экипажа</h2>
-            <table style="border-collapse:collapse">
+            <table>
                 <tr>
-                    <th style="border: 1px solid">Имя</th>
-                    <th style="border: 1px solid">Должность</th>
-                    <th style="border: 1px solid">Опыт работы</th>
-                    <th style="border: 1px solid">Обязанность</th>
+                    <th>Имя</th>
+                    <th>Должность</th>
+                    <th>Опыт работы</th>
+                    <th>Обязанность</th>
                 </tr>
 
                 <tr>
-                    <td style="border: 1px solid">Василий Пупкин</td>
-                    <td style="border: 1px solid">Командир корабля</td>
-                    <td style="border: 1px solid">12 лет</td>
-                    <td style="border: 1px solid">Управление кораблем</td>
+                    <td>Василий Пупкин</td>
+                    <td>Командир корабля</td>
+                    <td>12 лет</td>
+                    <td>Управление кораблем</td>
                 </tr>
 
                 <tr>
-                    <td style="border: 1px solid">Гриша Гришин</td>
-                    <td style="border: 1px solid">Помощник командира</td>
-                    <td style="border: 1px solid">2 года</td>
-                    <td style="border: 1px solid">Выполнение поручений командира</td>
+                    <td>Гриша Гришин</td>
+                    <td>Помощник командира</td>
+                    <td>Выполнение поручений командира</td>
                 </tr>
 
                 <tr>
-                    <td style="border: 1px solid">Василиса Васюткина</td>
-                    <td style="border: 1px solid">Айтишник</td>
-                    <td style="border: 1px solid">5 лет</td>
-                    <td style="border: 1px solid">Всякая дребедень. И так - целый день</td>
+                    <td>Василиса Васюткина</td>
+                    <td>Айтишник</td>
+                    <td>5 лет</td>
+                    <td>Всякая дребедень. И так - целый день</td>
                 </tr>
 
                 <tr>
-                    <td style="border: 1px solid">Китя Вислый</td>
-                    <td style="border: 1px solid">Ботаник</td>
-                    <td style="border: 1px solid">10 лет</td>
-                    <td style="border: 1px solid">Следить за флорой</td>
+                    <td>Китя Вислый</td>
+                    <td>Ботаник</td>
+                    <td>10 лет</td>
+                    <td>Следить за флорой</td>
                 </tr>
 
                 <tr>
-                    <td style="border: 1px solid">Глеб Тотсамый</td>
-                    <td style="border: 1px solid">Штурман</td>
-                    <td style="border: 1px solid">1 год</td>
-                    <td style="border: 1px solid">Указывать путь по маршруту</td>
+                    <td>Глеб Тотсамый</td>
+                    <td>Штурман</td>
+                    <td>1 год</td>
+                    <td>Указывать путь по маршруту</td>
                 </tr>
             </table>
         </section>
@@ -92,54 +143,54 @@
         <section id="expedition_plan">
             <h2>План проведения экспедиции</h2>
             <p>Здесь находится таблица с пошаговым алгоритмом выполнения плана.</p>
-            <table style="border-collapse: collapse">
+            <table>
                 <tr>
-                    <th style="border: 1px solid">День</th>
-                    <th style="border: 1px solid">Этап</th>
-                    <th style="border: 1px solid">Место</th>
-                    <th style="border: 1px solid">Статус</th>
+                    <th>День</th>
+                    <th>Этап</th>
+                    <th>Место</th>
+                    <th>Статус</th>
                 </tr>
 
                 <tr>
-                    <td style="border: 1px solid">09.09.2012</td>
-                    <td style="border: 1px solid">Общее собрание</td>
-                    <td style="border: 1px solid">Правый луг</td>
-                    <td style="border: 1px solid"><span style="color: grey">Выполнено</span></td>
+                    <td>09.09.2012</td>
+                    <td>Общее собрание</td>
+                    <td>Правый луг</td>
+                    <td><span style="color: grey">Выполнено</span></td>
                 </tr>
 
                 <tr>
-                    <td style="border: 1px solid">11.09.2012</td>
-                    <td style="border: 1px solid">Ознокомление с планом экспедиции</td>
-                    <td style="border: 1px solid">Правый луг</td>
-                    <td style="border: 1px solid">Согласование времени</td>
+                    <td>11.09.2012</td>
+                    <td>Ознокомление с планом экспедиции</td>
+                    <td>Правый луг</td>
+                    <td>Согласование времени</td>
                 </tr>
 
                 <tr>
-                    <td style="border: 1px solid">12.09.2012</td>
-                    <td style="border: 1px solid">Учения</td>
-                    <td style="border: 1px solid">Правый луг</td>
-                    <td style="border: 1px solid">Запланированно</td>
+                    <td>12.09.2012</td>
+                    <td>Учения</td>
+                    <td>Правый луг</td>
+                    <td>Запланированно</td>
                 </tr>
 
                 <tr>
-                    <td style="border: 1px solid">20.09.2012</td>
-                    <td style="border: 1px solid">Медобследование</td>
-                    <td style="border: 1px solid">Больница №12</td>
-                    <td style="border: 1px solid">Запланированно</td>
+                    <td>20.09.2012</td>
+                    <td>Медобследование</td>
+                    <td>Больница №12</td>
+                    <td>Запланированно</td>
                 </tr>
 
                 <tr>
-                    <td style="border: 1px solid">25.09.2012</td>
-                    <td style="border: 1px solid">Финальная тренировка</td>
-                    <td style="border: 1px solid">Космодром</td>
-                    <td style="border: 1px solid">Запланированно</td>
+                    <td>25.09.2012</td>
+                    <td>Финальная тренировка</td>
+                    <td>Космодром</td>
+                    <td>Запланированно</td>
                 </tr>
 
                 <tr>
-                    <td style="border: 1px solid">01.10.2012</td>
-                    <td style="border: 1px solid">Начало экспедиции</td>
-                    <td style="border: 1px solid">Главный штаб</td>
-                    <td style="border: 1px solid">Запланированно</td>
+                    <td>01.10.2012</td>
+                    <td>Начало экспедиции</td>
+                    <td>Главный штаб</td>
+                    <td>Запланированно</td>
                 </tr>
             </table>
         </section>
